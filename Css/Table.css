@@ -1,0 +1,14 @@
+html{
+	overflow:hidden;
+}
+td, th {
+
+    border: 1px solid #D6D4D4;
+    text-align:center;
+    padding: 8px;
+} 
+table {
+    font-family: arial, sans-serif;
+    width:100%;
+    border-collapse: collapse;
+}

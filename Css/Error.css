@@ -1,0 +1,18 @@
+div.centered {
+padding-top:50px;
+padding-bottom:50px;
+margin-left:auto;
+margin-right:auto;
+width:80%;
+}
+h1{
+	font-size:50px;
+	font-weight:bold;
+}
+p{
+	font-size:15px;
+}
+.Error-Image{
+
+	height:300px;
+}

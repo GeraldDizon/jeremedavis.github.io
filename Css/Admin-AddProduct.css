@@ -1,0 +1,89 @@
+@import url("fonts.css");
+.ProductImage{
+	height:50px;
+	width:50px;
+}
+.row.content {height: 800px;}
+.sidenav{
+  background-color: #313942;
+  height: 100%;
+}
+@media screen and (max-width: 767px) {
+  .row.content {height: auto;} 
+}
+.sidenav a {
+  color:white;
+}
+.sidenav a:hover{
+  color:#313942;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+.bg-page-title{
+  background-color:black;
+}
+.Sub-Image{
+  height:60px;
+}
+h3{
+  color:#5e5e5e;
+}
+.DeleteButton{
+  border:0;
+  background-color:transparent;
+}
+.DeleteButton:focus{
+  border:0;
+  background-color:transparent;
+    outline: none;
+}
+.EmailSent{
+  height:30px;
+}
+textarea {
+    resize: none;
+}
+.input-control-textarea{
+  width:100%;
+  border-radius:3px;
+  border-color:#ccc;
+}
+.btn_add_product{
+  border:none;
+  background-color:#596069;
+  color:white;
+  width:120px;
+  height:30px;
+  border-radius:3px;
+}
+.btn_add_product:hover{
+  background-color:#313942;
+}
+.btn_add_product:focus{
+    border: none;
+    outline:none;
+}
+.btn_add_item_modal{
+  background-color:#596069;
+  border:none;
+  font-size:12px;
+  width:120px;
+  height:30px;
+  border-radius:3px;
+  color:white;
+}
+.btn_add_item_modal:hover{
+  background-color:#313942;
+}
+.form-control{
+  min-width: 100px
+}

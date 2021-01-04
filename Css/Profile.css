@@ -1,0 +1,42 @@
+footer{
+  background-color:#3a3030;
+  height:100px;
+  color:white;
+}
+.bg-order-history{
+	background-color:#f5f5f6;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.username{
+	font-size:25px;
+}
+.emailadd{
+	color:#919191;
+}
+.sub-title{
+	font-size:15px;
+	color:#7b7c7c;
+}
+.bg-user-details{
+	background-color:white;
+	padding:15px 15px;
+	border: 1px solid #ddd;
+}
+hr{
+	margin-top:10px;
+	margin-bottom:10px;
+	border-color:#959595;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+	background-color:white;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){background-color: white}

@@ -1,0 +1,50 @@
+@import url("fonts.css");
+html, body{
+  height:100%;
+}
+
+.title-background{
+  background-color:#3a3030;
+  height:120px;
+}
+.main-title{
+  color:white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Alisandra-Regular;
+  font-size: 40px;
+}
+footer{
+  background-color:#3a3030;
+  height:100px;
+  color:white;
+}
+hr{
+  border-color:#cbcbcd;
+} 
+.bg-sign{
+  background-color:#f5f5f6;
+  padding-top:80px;
+  padding-bottom:80px;
+}
+.input-group-addon{
+  background-color:white;
+}
+.form-title{
+  font-size:20px;
+}
+.bg-login{
+  background-color:white;
+  padding:20px 20px;
+  border-radius:10px;
+}
+.bg-register{
+  background-color:white;
+  padding:20px 20px;
+  border-radius:10px;
+}
+hr{
+  margin-top:10px;
+  margin-bottom:20px;
+}

@@ -1,0 +1,164 @@
+@import url("fonts.css");
+.title-background{
+	background-color:#3a3030;
+	height:120px;
+}
+.main-title{
+	color:white;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: Alisandra-Regular;
+	font-size: 40px;
+}
+.page-title{
+	color:black;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: Centaur;
+	font-size: 35px;
+	font-weight: bold;
+}
+.bg-cart{
+	background-color:#f3f3f3;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.bg-process{
+	background-color:white;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	height:50px;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.pathway1{
+	height:20px;
+	background-color:#535353;
+	border-radius:20px;
+}
+.pathway2{
+	height:20px;
+	background-color:#535353;
+	border-radius:20px;
+}
+.cart-directory{
+	font-size:18px;
+	color:red;
+}
+.review-directory{
+	font-size:18px;
+}
+.success-directory{	
+	font-size:18px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+	background-color: white
+}
+th, td {
+	border-bottom: thin solid #c3c3c3;
+    text-align: left;
+    padding: 8px;
+}
+tr{
+	background-color: white
+}
+footer{
+	background-color:#3a3030;
+	height:100px;
+	color:white;
+}
+.bg-shipping-details{
+	background-color:white;
+	padding:5px 20px;
+	border: 1px solid #ddd;
+}
+.order-total{
+	font-size:20px;
+}
+.order-info{
+	color:#848484;
+}
+.bg-checkout{
+	background-color:white;
+	padding:15px 15px;
+	border: 1px solid #ddd;
+	border-radius: 10px
+}
+hr{
+	border-color: #6b6b6b;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.bg-shipping-details p{
+	font-size: 18px;
+}
+.bg-shipping-details span{
+	font-size: 15px;
+	color:#646464;
+}
+.continueshopping{
+  border:none;
+  background-color:#ff715a;
+  border-radius:3px;
+  margin-bottom:2px;
+  line-height:30px;
+}
+.continueshopping a{
+	color:white;
+}
+.continueshopping a:hover{
+	text-decoration: none;
+}
+.continueshopping:hover{
+	background-color:#e06e5c;
+	color:white;
+}
+.continueshopping a:focus{
+    border: none;
+    outline:none;
+}
+
+
+
+
+
+.continue{
+  border:none;
+  background-color:#596069;
+  border-radius:3px;
+  margin-bottom:2px;
+  height:30px;
+  line-height:30px;
+}
+.continue a{
+	color:white;
+}
+.continue a:hover{
+	text-decoration: none;
+}
+.continue:hover{
+	background-color:#313942;
+	color:white;
+}
+.continue a:focus{
+    border: none;
+    outline:none;
+}
+
+input[type=submit]{
+	background-color: transparent;
+	border:none;
+	color:white;
+}
+input[type=submit]:focus{
+    border: none;
+    outline:none;
+}

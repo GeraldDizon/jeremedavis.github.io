@@ -1,0 +1,94 @@
+@import url("fonts.css");
+html, body{
+	height:100%;
+}
+
+.title-background{
+	background-color:#3a3030;
+	height:120px;
+}
+.main-title{
+	color:white;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: Alisandra-Regular;
+	font-size: 40px;
+}
+footer{
+	background-color:#3a3030;
+	height:100px;
+	color:white;
+}
+.bg-trio{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.shop-description{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px; 
+}
+.featured-title{
+  font-family:Lato-Regular;
+  font-size:30px;
+}
+.bg-featured{
+  background-color:#fbfbfb;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.featured{
+  width:100%;
+  border:solid 1px #f5f5f6;
+
+}
+.featured:hover{
+    border:solid 1px #b7b7b7;
+}
+.featured-subtitle{
+  color:#919191;
+  font-size:15px;
+  margin-bottom:50px;
+}
+.service-image{
+  height:150px;
+  margin-bottom:30px;
+}
+.service-title{
+  font-size:20px;
+  font-family:Lato-Regular;
+  margin-bottom:20px;
+}
+.service-subtitle{
+  font-size:15px;
+  font-family:Lato-Regular;
+  color:#8f8f8f;
+}
+.border-service{
+  border:solid 1px #e5e5e5;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.background-main{
+	background: url(../Images/AboutUsBg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height:300px;
+	padding-top:70px;
+	padding-bottom:70px;
+}
+.page-title{
+	font-size:50px;
+	letter-spacing: 2px;
+	color:white;
+	font-family: Lato-Regular;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+.sub-title{
+	font-size:18px;
+	color:white;
+}

@@ -1,0 +1,59 @@
+@import url("fonts.css");
+.title-background{
+  background-color:#3a3030;
+  height:120px;
+}
+.main-title{
+  color:white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Alisandra-Regular;
+  font-size: 40px;
+}
+.page-title{
+  color:black;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Centaur;
+  font-size: 35px;
+  font-weight: bold;
+}
+footer{
+  background-color:#3a3030;
+  height:100px;
+  color:white;
+}
+.bg-product-info{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+.text-name{
+  font-size:30px;
+  font-weight: bold;
+  color:#ff715a;
+}
+.text-price{
+  font-size:15px;
+  color:red;
+}
+.btn_add_product{
+  border:none;
+  background-color:#596069;
+  color:white;
+  border-radius:3px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:15px;
+  padding-left:15px;
+}
+.btn_add_product:hover{
+  background-color:#313942;
+  text-decoration: none;
+  color:white;
+}
+.btn_add_product:focus{
+    border: none;
+    outline:none;
+}

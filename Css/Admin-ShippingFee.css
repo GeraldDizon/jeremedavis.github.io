@@ -1,0 +1,66 @@
+@import url("fonts.css");
+.ProductImage{
+  height:50px;
+  width:50px;
+}
+.row.content {height: 800px;}
+.sidenav{
+  background-color: #313942;
+  height: 100%;
+}
+@media screen and (max-width: 767px) {
+  .row.content {height: auto;} 
+}
+.sidenav a {
+  color:white;
+}
+.sidenav a:hover{
+  color:#313942;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+.bg-page-title{
+  background-color:black;
+}
+.Sub-Image{
+  height:80px;
+}
+h3{
+  color:#5e5e5e;
+}
+button{
+  border:0;
+  background-color:transparent;
+}
+button:focus{
+  border:0;
+  background-color:transparent;
+    outline: none;
+}
+.EmailSent{
+  height:30px;
+}
+.btn_add_shipping{
+  border:none;
+  background-color:#596069;
+  color:white;
+  width:120px;
+  height:30px;
+  border-radius:3px;
+}
+.btn_add_shipping:hover{
+  background-color:#313942;
+}
+.btn_add_shipping:focus{
+    border: none;
+    outline:none;
+}

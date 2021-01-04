@@ -1,0 +1,15 @@
+
+ul {
+    list-style-type: none;
+
+}
+
+li{
+    display: inline-block;
+    width: 100px;
+    background-color: #dddddd;
+}
+.main{
+	border:solid 1px black;
+	width:200px;
+}

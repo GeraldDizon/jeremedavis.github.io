@@ -1,0 +1,106 @@
+@import url("fonts.css");
+html, body{
+	height:100%;
+}
+
+.title-background{
+	background-color:#3a3030;
+	height:120px;
+}
+.main-title{
+	color:white;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: Alisandra-Regular;
+	font-size: 40px;
+}
+.page-title{
+	color:black;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: Centaur;
+	font-size: 35px;
+	font-weight: bold;
+}
+.page-directory{
+	margin-top:30px;
+	font-size:15px;
+}
+.page-title-bg{
+    border-bottom: thin solid #989898;
+	height:120px;
+}
+.bg-collections{
+	background-color:#f5f5f6;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.category{
+	background-color:white;
+	border: 1px solid #ddd;
+}
+.category-list{
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.category-list li:first-child{
+	letter-spacing: 1px;
+	margin-left:0px;
+	font-size:18px;
+}
+.category-list li{
+	padding-bottom:2px;
+	padding-top:2px;
+	list-style-type:none;
+	margin-left:20px;
+	font-family:Lato-Regular;
+	font-size:15px;
+	letter-spacing: 0.5px;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border-radius: 0;
+}
+.thumbnail img {
+	height:150px;
+    margin-bottom: 10px;
+}
+.name{
+	font-size:18px;
+}
+.price{
+	color:red;
+}
+.info{
+	color:white;
+	background-color:#272e6d;
+	border-radius: 10px
+}
+.info a{
+	color:white;
+	text-decoration: none;
+}
+.info:hover{
+	background-color:#404cb5;
+	cursor:pointer;
+
+}
+footer{
+	background-color:#3a3030;
+	height:100px;
+	color:white;
+}
+hr{
+	margin-top:0px;
+	border-color:#cbcbcd;
+}	
+.thumbnail a>img{
+	height:150px;
+	width:100%;
+	margin-bottom:0px;
+}
+.addtocart a{
+	color:white;
+}

@@ -1,0 +1,59 @@
+@import url("fonts.css");
+html, body{
+  height:100%;
+}
+
+.title-background{
+  background-color:#3a3030;
+  height:120px;
+}
+.main-title{
+  color:white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Alisandra-Regular;
+  font-size: 40px;
+}
+.page-title{
+  color:black;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Centaur;
+  font-size: 35px;
+  font-weight: bold;
+}
+.page-directory{
+  margin-top:30px;
+  font-size:15px;
+}
+.page-title-bg{
+    border-bottom: thin solid #989898;
+  height:120px;
+}
+footer{
+  background-color:#3a3030;
+  height:100px;
+  color:white;
+}
+.editprofile{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.editprofiletitle{
+  margin:0;
+  padding:10px 10px;
+  background-color:#ff715a;
+  color:white;
+}
+.editprofileinfo{
+  padding:5px 20px;
+  margin-top:0px;
+  margin-bottom:30px;
+  background-color:#61615F;
+  color:white;
+}
+.ProfileInfo{
+  background-color:#f9f5f5;
+}
